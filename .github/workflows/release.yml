@@ -32,7 +32,7 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: packages
-          path: blueberry-brackets-dark-theme.vsix
+          path: blueberry-brackets-dark-theme*.vsix
 
   azure:
     runs-on: ubuntu-24.04
@@ -60,7 +60,7 @@ jobs:
           node-version: 20.x
           cache: 'npm'
 
-      - run: npm run publish
+      - run: npm run publish --packagePath packages/*.vsix
 
   github:
     runs-on: ubuntu-24.04
@@ -78,4 +78,4 @@ jobs:
           gh run download
           tree
       - run: |
-          gh release create --verify-tag "$GITHUB_REF_NAME" --title "$GITHUB_REF_NAME" packages/blueberry-brackets-dark-theme.vsix
+          gh release create --verify-tag "$GITHUB_REF_NAME" --title "$GITHUB_REF_NAME" packages/*.vsix
