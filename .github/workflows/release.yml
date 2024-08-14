@@ -62,7 +62,7 @@ jobs:
           node-version: 20.x
           cache: 'npm'
 
-      - run: npm run publish --packagePath packages/*.vsix
+      - run: npm run publish
 
   github:
     runs-on: ubuntu-24.04
