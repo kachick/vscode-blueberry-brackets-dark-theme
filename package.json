@@ -1,36 +1,45 @@
 {
-    "name": "blueberry-brackets-dark-theme",
-    "displayName": "Blueberry dark theme - Adjust to brackets",
-    "description": "Blueberry Dark Theme for Visual Studio Code - Adjust to brackets",
-    "version": "1.2.0",
-    "publisher": "kachick",
-    "engines": {
-        "vscode": "^1.13.0"
-    },
-    "categories": [
-        "Themes"
-    ],
-    "icon": "icon.png",
-    "contributes": {
-        "themes": [
-            {
-                "label": "Blueberry Brackets dark theme",
-                "uiTheme": "vs-dark",
-                "path": "./themes/blueberry-dark-theme-color-theme.json"
-            }
-        ]
-    },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/kachick/vscode-blueberry-brackets-dark-theme.git"
-    },
-    "homepage": "https://github.com/kachick/vscode-blueberry-brackets-dark-theme#readme",
-    "license": "MIT",
-    "author": "Peyman Salehi <slh.peyman@gmail.com>",
-    "scripts": {
-        "deploy": "vsce publish"
-    },
-    "devDependencies": {
-        "@vscode/vsce": "^2.18.0"
-    }
+  "name": "blueberry-brackets-dark-theme",
+  "displayName": "Blueberry dark theme - Adjust to brackets",
+  "description": "Blueberry Dark Theme for Visual Studio Code - Adjust to brackets",
+  "version": "1.2.0",
+  "publisher": "kachick",
+  "engines": {
+    "vscode": "^1.13.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "files": ["themes/*.json", "assets/icon.png"],
+  "icon": "assets/icon.png",
+  "contributes": {
+    "themes": [
+      {
+        "label": "Blueberry Brackets dark theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/blueberry-dark-theme-color-theme.json"
+      }
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kachick/vscode-blueberry-brackets-dark-theme.git"
+  },
+  "homepage": "https://github.com/kachick/vscode-blueberry-brackets-dark-theme#readme",
+  "license": "MIT",
+  "author": {
+    "name": "Kenici Kamiya",
+    "email": "kachick1@gmail.com",
+    "url": "https://github.com/kachick"
+  },
+  "contributors": [
+    "Peyman Salehi <slh.peyman@gmail.com>"
+  ],
+  "scripts": {
+    "package": "vsce package",
+    "deploy": "vsce publish"
+  },
+  "devDependencies": {
+    "@vscode/vsce": "^2.31.1"
+  }
 }
