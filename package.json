@@ -1,9 +1,9 @@
 {
-    "name": "blueberry-dark-theme",
-    "displayName": "Blueberry dark theme",
-    "description": "Blueberry Dark Theme for Visual Studio Code",
-    "version": "1.1.1",
-    "publisher": "peymanslh",
+    "name": "blueberry-brackets-dark-theme",
+    "displayName": "Blueberry dark theme - Adjust to brackets",
+    "description": "Blueberry Dark Theme for Visual Studio Code - Adjust to brackets",
+    "version": "1.2.0",
+    "publisher": "kachick",
     "engines": {
         "vscode": "^1.13.0"
     },
@@ -14,7 +14,7 @@
     "contributes": {
         "themes": [
             {
-                "label": "Blueberry dark theme",
+                "label": "Blueberry Brackets dark theme",
                 "uiTheme": "vs-dark",
                 "path": "./themes/blueberry-dark-theme-color-theme.json"
             }
@@ -22,9 +22,9 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/peymanslh/vscode-blueberry-dark-theme.git"
+        "url": "git+https://github.com/kachick/vscode-blueberry-brackets-dark-theme.git"
     },
-    "homepage": "https://github.com/peymanslh/vscode-blueberry-dark-theme#readme",
+    "homepage": "https://github.com/kachick/vscode-blueberry-brackets-dark-theme#readme",
     "license": "MIT",
     "author": "Peyman Salehi <slh.peyman@gmail.com>",
     "scripts": {

@@ -1,5 +1,5 @@
-# Blueberry Dark Theme
-Based on [DuoTone Syntax](https://github.com/simurai/duotone-syntax) with a little change.
+# Blueberry Brackets Dark Theme
+Based on [Blueberry Dark Theme](https://github.com/peymanslh/vscode-blueberry-dark-theme) with a little change for brackets.
 
 ![Colors](https://raw.githubusercontent.com/peymanslh/vscode-blueberry-dark-theme/master/colors.jpg)
 
