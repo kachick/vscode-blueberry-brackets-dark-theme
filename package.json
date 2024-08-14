@@ -10,7 +10,8 @@
   "categories": [
     "Themes"
   ],
-  "icon": "icon.png",
+  "files": ["themes/*.json", "assets/icon.png"],
+  "icon": "assets/icon.png",
   "contributes": {
     "themes": [
       {
