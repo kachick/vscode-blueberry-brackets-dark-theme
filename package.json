@@ -27,7 +27,14 @@
   },
   "homepage": "https://github.com/kachick/vscode-blueberry-brackets-dark-theme#readme",
   "license": "MIT",
-  "author": "Peyman Salehi <slh.peyman@gmail.com>",
+  "author": {
+    "name": "Kenici Kamiya",
+    "email": "kachick1@gmail.com",
+    "url": "https://github.com/kachick"
+  },
+  "contributors": [
+    "Peyman Salehi <slh.peyman@gmail.com>"
+  ],
   "scripts": {
     "package": "vsce package",
     "deploy": "vsce publish"
