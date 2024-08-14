@@ -6,10 +6,8 @@ Based on [Blueberry Dark Theme](https://github.com/peymanslh/vscode-blueberry-da
 
 ## Installation
 
-Launch VS Code Quick Open (⌘+P), paste the following command, and press enter.
-
-```plaintext
-ext install blueberry-brackets-dark-theme
+```bash
+code --install-extension kachick.blueberry-brackets-dark-theme
 ```
 
 ## Screen Shot
